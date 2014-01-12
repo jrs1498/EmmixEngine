@@ -1,0 +1,28 @@
+﻿Build started 1/11/2014 8:18:17 PM.
+     1>Project "E:\Projects\EmmixEngine\EmmixEngine\EmmixEngine.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\EmmixEngine\Debug\EmmixEngine.exe" /INCREMENTAL /NOLOGO opengl32.lib glew32.lib glfw3dll.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\EmmixEngine\Debug\EmmixEngine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\EmmixEngine\Debug\EmmixEngine.lib" /MACHINE:X86 Debug\LoadShaders.obj
+         Debug\Main.obj
+         Debug\Mesh.obj
+         Debug\Scene.obj
+         Debug\SceneCamera.obj
+         Debug\SceneClock.obj
+         Debug\SceneObject.obj
+         EmmixEngine.vcxproj -> E:\Projects\EmmixEngine\Debug\EmmixEngine.exe
+       PostBuildEvent:
+         xcopy "E:\Projects\EmmixEngine\external\glfw-3.0.4\lib-msvc120" "E:\Projects\EmmixEngine\Debug" /y
+         xcopy "E:\Projects\EmmixEngine\external\glew-1.10.0\bin\Release\Win32" "E:\Projects\EmmixEngine\Debug" /y
+         :VCEnd
+         E:\Projects\EmmixEngine\external\glfw-3.0.4\lib-msvc120\glfw3.dll
+         E:\Projects\EmmixEngine\external\glfw-3.0.4\lib-msvc120\glfw3.lib
+         E:\Projects\EmmixEngine\external\glfw-3.0.4\lib-msvc120\glfw3dll.lib
+         3 File(s) copied
+         E:\Projects\EmmixEngine\external\glew-1.10.0\bin\Release\Win32\glew32.dll
+         E:\Projects\EmmixEngine\external\glew-1.10.0\bin\Release\Win32\glewinfo.exe
+         E:\Projects\EmmixEngine\external\glew-1.10.0\bin\Release\Win32\visualinfo.exe
+         3 File(s) copied
+     1>Done Building Project "E:\Projects\EmmixEngine\EmmixEngine\EmmixEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.41
